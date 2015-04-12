@@ -9,3 +9,11 @@ user_guess = input()
 
 # Convert the user's guess to an integer
 user_guess = int(user_guess)
+
+# Decide if the user is a winner
+if dice_number == user_guess:
+    print("You win!")
+else:
+    print("Sorry your lost. The number rolled was: " + str(dice_number))
+    print("Try again.")
+    
